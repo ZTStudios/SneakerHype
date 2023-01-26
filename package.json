@@ -1,0 +1,32 @@
+{
+  "name": "sneakerhype",
+  "version": "1.0.0",
+  "description": "",
+  "main": "API/serverExpress.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api": "nodemon API/serverExpress.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZTStudios/SneakerHype.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZTStudios/SneakerHype/issues"
+  },
+  "homepage": "https://github.com/ZTStudios/SneakerHype#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "standard": "17.0.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
